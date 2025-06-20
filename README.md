@@ -1,8 +1,8 @@
-# 🔐 Digital Safe System using Verilog
+# Digital Safe System using Verilog
 
 This project simulates a **Digital Safe Lock System** designed using **Verilog HDL**. It models the basic functionality of a secure electronic locker that unlocks only when a preset 5-bit passcode is entered correctly.
 
-## 🧠 Project Description
+## Project Description
 
 The system functions as a digital safe that:
 - Accepts 5-bit digit inputs serially.
@@ -12,7 +12,7 @@ The system functions as a digital safe that:
 
 This project uses finite state machines (FSM) to control the logic for user input, password verification, and system output.
 
-## ⚙️ How It Works
+## How It Works
 
 - Users enter a 5-bit passcode bit by bit (`1` or `0`) using switches or serial input.
 - The system stores and compares the input with a predefined code.
@@ -21,7 +21,7 @@ This project uses finite state machines (FSM) to control the logic for user inpu
   - Incorrect digits are entered
   - All 5 bits are entered and they do not match the password
 
-## 🔧 Tools Required
+## Tools Required
 
 - **Xilinx Vivado** (preferred)
 
