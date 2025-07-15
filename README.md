@@ -57,3 +57,11 @@ The *Digital Safe System* is a hardware-based project implemented in Verilog HDL
 3. Observe output on LEDs or the seven-segment display:
    - *Correct code*: LED(LD1) will glow and 7 segment display will show U.
    - *Wrong code*: LED(LD0) will glow and 7 segment display will show L.
+
+
+## Development Tools
+
+- *Language*: Verilog HDL
+- *Development Environment*: Xilinx Vivado
+- *Simulation*: Vivado Simulator
+- *Target Device*: Xilinx Artix-7 FPGA (Basys3)
